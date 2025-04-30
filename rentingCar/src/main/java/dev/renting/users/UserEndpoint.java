@@ -7,7 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Endpoint
 @AnonymousAllowed
-public class UserEndpoint {
+public class
+UserEndpoint {
 
     private final UserRepository userRepository;
 
