@@ -42,6 +42,8 @@ This document serves as a guide and log for the frontend development of the **Re
 
 ## Estimated Time for Tasks
 
+## Week 1: Core Renting Feature (May 19 - May 25, 2025)
+
 | Task Name                               | Description                                                                                                                                                                                                      | Estimated Time | Deadline     | Notes |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------ | ----- |
 | Design Data Models for Cars             | Create 5 different data models for representing available cars. Document advantages and disadvantages of each (e.g., scalability, query ease). Focus on attributes like ID, type, availability, price, location. | 2 hours        | May 20, 2025 |       |
@@ -89,8 +91,6 @@ This document serves as a guide and log for the frontend development of the **Re
 | -------------- | -------------- |
 | Authentication | 6 hours        |
 | **Total**      | **6 hours**    |
-
-
 
 ---
 

@@ -1,5 +1,6 @@
-Below is the Mermaid.js code for a User Journey Diagram that captures the user journey for creating a booking and performing queries. This diagram breaks the process into distinct sections, assigns satisfaction scores (from 1 to 5, where 1 is very negative and 5 is very positive), and identifies the participants involved in each step. You can render this code in any Mermaid-supported environment (e.g., GitHub Markdown, Mermaid Live Editor) to see the visual representation.
+# User Journey and Queries
 
+Below is the Mermaid.js code for a User Journey Diagram that captures the user journey for creating a booking and performing queries. The diagram breaks the process into distinct sections, assigns satisfaction scores (from 1 to 5, where 1 is very negative and 5 is very positive), and identifies the participants involved in each step. 
 
 ```mermaid
 journey
@@ -18,22 +19,25 @@ journey
     section Post-Booking Queries
         Check Booking Status: 4: User, Mobile App
         View Booking History: 4: User, Backend API
-
 ```
 
 ---
 
 ## Explanation of the User Journey
 
-- **Initial Access**: The journey begins with the user opening the app and logging in. Satisfaction is moderate (3-4) as login might involve minor friction like entering credentials or delays in authentication [1](https://mermaid.js.org/syntax/userJourney.html)[2](https://newdevsguide.com/2023/04/12/user-journey-maps-mermaid/).
+- **Initial Access**: The journey begins with the user opening the app and logging in. Satisfaction is moderate (3-4) as login might involve minor friction like entering credentials or delays in authentication.
 
-- **Search for Cars**: The user selects rental dates using a calendar interface and specifies a delegation or location. Querying available cars is a high point (score 5) due to the expected ease of seeing real-time results [1](https://mermaid.js.org/syntax/userJourney.html)[5](https://docs.paradime.io/app-help/documentation/integrations/code-ide/mermaid-js/user-journey-diagrams).
+- **Search for Cars**: The user selects rental dates using a calendar interface and specifies a delegation or location. Querying available cars is a high point (score 5) due to the expected ease of seeing real-time results.
 
-- **Booking Process**: Viewing car details and confirming the booking are satisfying steps (4-5), especially with immediate backend confirmation and a notification to reassure the user of success [2](https://newdevsguide.com/2023/04/12/user-journey-maps-mermaid/)[5](https://docs.paradime.io/app-help/documentation/integrations/code-ide/mermaid-js/user-journey-diagrams).
+- **Booking Process**: Viewing car details and confirming the booking are satisfying steps (4-5), especially with immediate backend confirmation and a notification to reassure the user of success.
+  
+  ### Steps not included in the MVP
 
-- **Post-Booking Queries**: After booking, the user can check the status or view their booking history. These steps are rated positively (4) assuming a user-friendly interface and quick API responses [1](https://mermaid.js.org/syntax/userJourney.html)[2](https://newdevsguide.com/2023/04/12/user-journey-maps-mermaid/).
+- **Post-Booking Queries**: After booking, the user can check the status or view their booking history. These steps are rated positively (4) assuming a user-friendly interface and quick API responses.
 
 
+
+# Data Models
 
 ## Data Model 1: Single-Table with Delegation-Car Hierarchy
 
